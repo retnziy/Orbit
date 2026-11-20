@@ -1,182 +1,180 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>About us</title>
-    <style>
-        body {
-            margin: 0;
-            background-color: #07152b;
-            color: white;
-            /* Set the background image with multiple layers and stars */
-            background-image:
-                radial-gradient(1px 1px at 20px 30px, white, transparent),
-                radial-gradient(2px 2px at 100px 80px, #9acbff, transparent),
-                radial-gradient(1px 1px at 180px 140px, white, transparent),
-                linear-gradient(135deg, #07152b, #0d2445, #07152b);
-            background-size:
-                220px 180px,
-                280px 230px,
-                320px 260px,
-                cover;
-        }
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 40px;
-            background-color: #0b1e3a;
-        }
-        header h2 {
-            color: #70b8ff;
-            font-size: 28px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-left: 20px;
-        }
-        nav a:hover {
-            color: #70b8ff;
-        }
-        .about {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 60px 50px;
-            gap: 40px;
-            font-size: 20px;
-        }
-        .about img {
-            width: 45%;
-            border-radius: 15px;
-        }
-        .goals {
-            display: flex;
-            margin: 30px 50px;
-            gap: 20px;
-        }
-        /*ask if i should keep this*/
-        .card {
-            flex: 1;
-            background-color: #102747;
-            padding: 20px;
-            border-radius: 10px;
-            border: 1px solid #70b8ff;
-            transition: 0.3s;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-        }
-        .card h2 {
-            color: #70b8ff;
-            font-size: 28px;
-        }
-        .card p {
-            font-size: 20px;
-        }
-        .exp h2 {
-            font-size: 28px;
-        }
-        .exp p {
-            margin-bottom: 30px;
-            color: #70b8ff;
-            font-size: 20px;
-        }
-        .exp {
-            text-align: center;
-            padding: 70px 20px;
-        }
-        .exp a {
-            display: inline-block;
-            border-radius: 8px;
-            padding: 15px 30px;
-            background-color: #2878cc;
-            color: white;
-            text-decoration: none;
-        }
-        .exp a:hover {
-            background-color: #70b8ff;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #0b1e3a;
-            color: #b9cae4;
-        }
-        /* Add a decorative line below the "About Us" heading */
-        .about h1::after {
-            content: "";
-            display: block;
-            width: 80px;
-            height: 4px;
-            background-color: #70b8ff;
-            margin-top: 10px;
-            border-radius: 5px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h2>ORBIS</h2>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="destinations.html">Destinations</a>
-            <a href="packages.html">Packages</a>
-            <a href="spacecraft.html">Spacecraft</a>
-            <a href="about.html">About Us</a>
-            <a href="contact.html">Contact</a>
-            <a href="faq.html">FAQ</a>
-            <a href="booking.html">Book Now</a>
-        </nav>
-    </header>
-    <main>
-        <div class="about">
-            <div>
-                <h1>About Us</h1>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>About us</title>
+        <link rel="stylesheet" href="Mainstyle.css">
+        <style>
+
+            .about {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 60px 50px;
+                gap: 40px;
+                font-size: 20px;
+            }
+
+                .about img {
+                    width: 45%;
+                    border-radius: 15px;
+                }
+
+            .goals {
+                display: flex;
+                margin: 30px 50px;
+                gap: 20px;
+            }
+            /*ask if i should keep this*/
+            .card {
+                flex: 1;
+                background-color: #102747;
+                padding: 20px;
+                border-radius: 10px;
+                border: 1px solid #70b8ff;
+                transition: 0.3s;
+            }
+
+                .card:hover {
+                    transform: translateY(-5px);
+                }
+
+                .card h2 {
+                    color: #70b8ff;
+                    font-size: 28px;
+                }
+
+                .card p {
+                    font-size: 20px;
+                }
+
+            .exp h2 {
+                font-size: 28px;
+            }
+
+            .exp p {
+                margin-bottom: 30px;
+                color: #70b8ff;
+                font-size: 20px;
+            }
+
+            .exp {
+                text-align: center;
+                padding: 70px 20px;
+            }
+
+                .exp a {
+                    display: inline-block;
+                    border-radius: 8px;
+                    padding: 15px 30px;
+                    background-color: #2878cc;
+                    color: white;
+                    text-decoration: none;
+                }
+
+                    .exp a:hover {
+                        background-color: #70b8ff;
+                    }
+
+            /* Add a decorative line below the "About Us" heading */
+            .about h1::after {
+                content: "";
+                display: block;
+                width: 80px;
+                height: 4px;
+                background-color: #70b8ff;
+                margin-top: 10px;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <h2>ORBIS</h2>
+
+            <nav>
+
+                <a href="index.html">Home</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="packages.html">Packages</a>
+                <a href="spacecraft.html">Spacecraft</a>
+                <a href="About Us.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="faq.html">FAQ</a>
+                <a href="booking.html">Book Now</a>
+
+            </nav>
+
+        </header>
+        <main>
+            <div class="about">
+                <div>
+                    <h1>About Us</h1>
+                    <p>
+                        ORBIS is a fictional space tourism company
+                        dedicated to making space exploration
+                        an unforgettable experience.
+                        <br />
+                        From breathtaking views of Earth to
+                        extraordinary journeys to the Moon and Mars,
+                        we bring the wonders of space closer to you.
+                    </p>
+                </div>
+
+                <img src="pic/Earth.jpg" alt="Earth viewed from space">
+
+            </div>
+
+            <div class="goals">
+                <div class="card">
+                    <h2 style="font-size: 28px;">Our Vision</h2>
+                    <p style="font-size: 20px;">
+                        We envision a future where traveling beyond Earth
+                        becomes a reality for more people, inspiring
+                        future generations to explore the universe.
+                    </p>
+                </div>
+
+
+                <div class="card">
+                    <h2>Our Goals</h2>
+                    <p>
+                        Our goals are to make space tourism
+                        accessible, exciting, and unforgettable.
+                        We aim to give travelers the opportunity
+                        to explore destinations beyond Earth.
+                    </p>
+
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+            <div class="exp">
+                <h2>Your Journey Starts Here</h2>
                 <p>
-                    ORBIS is a fictional space tourism company
-                    dedicated to making space exploration
-                    an unforgettable experience.
-                    <br />
-                    From breathtaking views of Earth to
-                    extraordinary journeys to the Moon and Mars,
-                    we bring the wonders of space closer to you.
+                    Ready to discover what lies beyond Earth?
+                    Explore our destinations and find your
+                    next adventure.
                 </p>
+                <a href="destinations.html">
+                    Explore Destinations
+                </a>
+
+
+
+
             </div>
-            <img src="pic/Earth.jpg" alt="Earth viewed from space">
-        </div>
-        <div class="goals">
-            <div class="card">
-                <h2 style="font-size: 28px;">Our Vision</h2>
-                <p style="font-size: 20px;">
-                    We envision a future where traveling beyond Earth
-                    becomes a reality for more people, inspiring
-                    future generations to explore the universe.
-                </p>
-            </div>
-            <div class="card">
-                <h2>Our Goals</h2>
-                <p>
-                    Our goals are to make space tourism
-                    accessible, exciting, and unforgettable.
-                    We aim to give travelers the opportunity
-                    to explore destinations beyond Earth.
-                </p>
-            </div>
-        </div>
-        <div class="exp">
-            <h2>Your Journey Starts Here</h2>
-            <p>
-                Ready to discover what lies beyond Earth?
-                Explore our destinations and find your
-                next adventure.
-            </p>
-            <a href="destinations.html">Explore Destinations</a>
-        </div>
-    </main>
-    <footer>
-        <p>&copy; 2026 ORBIS Space Tourism. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+
+        </main>
+        <footer>
+            <p>&copy; 2026 ORBIS Space Tourism. All rights reserved.</p>
+        </footer>
+    </body>
+    </html>
