@@ -9,83 +9,80 @@
             .about {
                 display: flex;
                 align-items: center;
-                justify-content: space-between;
+                
                 padding: 60px 50px;
                 gap: 40px;
                 font-size: 20px;
             }
-
-                .about img {
-                    width: 45%;
-                    border-radius: 15px;
-                }
-
-            .goals {
-                display: flex;
-                margin: 30px 50px;
-                gap: 20px;
-            }
-            /*ask if i should keep this*/
-            .card {
-                flex: 1;
-                background-color: #102747;
-                padding: 20px;
-                border-radius: 10px;
-                border: 1px solid #70b8ff;
-                transition: 0.3s;
-            }
-
-                .card:hover {
-                    transform: translateY(-5px);
-                }
-
-                .card h2 {
-                    color: #70b8ff;
+                .about h1 {
                     font-size: 28px;
                 }
-
-                .card p {
+                .about p {
                     font-size: 20px;
                 }
 
-            .exp h2 {
-                font-size: 28px;
-            }
-
-            .exp p {
-                margin-bottom: 30px;
-                color: #70b8ff;
-                font-size: 20px;
-            }
-
-            .exp {
-                text-align: center;
-                padding: 70px 20px;
-            }
-
-                .exp a {
-                    display: inline-block;
-                    border-radius: 8px;
-                    padding: 15px 30px;
-                    background-color: #2878cc;
-                    color: white;
-                    text-decoration: none;
-                }
-
-                    .exp a:hover {
-                        background-color: #70b8ff;
+                    .about img {
+                        width: 45%;
+                        border-radius: 15px;
                     }
 
-            /* Add a decorative line below the "About Us" heading */
-            .about h1::after {
-                content: "";
-                display: block;
-                width: 80px;
-                height: 4px;
-                background-color: #70b8ff;
-                margin-top: 10px;
-                border-radius: 5px;
-            }
+                    .goals {
+                        display: flex;
+                        margin: 30px 50px;
+                        gap: 20px;
+                    }
+                    /*ask if i should keep this*/
+                    .card {
+                        flex: 1;
+                        background-color: #102747;
+                        padding: 20px;
+                        border-radius: 10px;
+                        border: 1px solid #70b8ff;
+                        transition: 0.3s;
+                    }
+
+                        .card:hover {
+                            transform: translateY(-5px);
+                        }
+
+                        .card h2 {
+                            color: #70b8ff;
+                            font-size: 28px;
+                        }
+
+                        .card p {
+                            font-size: 20px;
+                        }
+
+                    .exp h2 {
+                        font-size: 28px;
+                    }
+
+                    .exp p {
+                        margin-bottom: 30px;
+                        color: #70b8ff;
+                        font-size: 20px;
+                    }
+
+                    .exp {
+                        text-align: center;
+                        padding: 70px 20px;
+                    }
+
+                        .exp a {
+                            display: inline-block;
+                            border-radius: 8px;
+                            padding: 15px 30px;
+                            background-color: #2878cc;
+                            color: white;
+                            text-decoration: none;
+                        }
+
+                            .exp a:hover {
+                                background-color: #70b8ff;
+                            }
+
+          
         </style>
     </head>
     <body>
@@ -111,7 +108,7 @@
             <div class="about">
                 <div>
                     <h1>About Us</h1>
-                    <p>
+                    <p style="color: #B9CAE4; font-size: 20px;">
                         ORBIS is a fictional space tourism company
                         dedicated to making space exploration
                         an unforgettable experience.
@@ -127,7 +124,7 @@
             </div>
 
             <div class="goals">
-                <div class="card">
+                <div class="card" style="border-color: skyblue;">
                     <h2 style="font-size: 28px;">Our Vision</h2>
                     <p style="font-size: 20px;">
                         We envision a future where traveling beyond Earth
@@ -137,8 +134,8 @@
                 </div>
 
 
-                <div class="card">
-                    <h2>Our Goals</h2>
+                <div class="card" style="border-color: #B69CFF;">
+                    <h2 style="color: #B69CFF;">Our Goals</h2>
                     <p>
                         Our goals are to make space tourism
                         accessible, exciting, and unforgettable.
