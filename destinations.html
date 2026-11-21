@@ -1,0 +1,177 @@
+﻿
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Destinations</title>
+    <link rel="stylesheet" href="StyleSheet1.css" />
+    
+    <style>
+        .head{
+            text-align:center;
+        }
+        .head h1{
+            font-size:28px;
+
+
+        }
+        .head p {
+            color: #B9CAE4;
+            font-size:25px;
+        }
+        .cards{
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            margin:30px 20px;
+        }
+        .card {
+            flex: 1;
+            background-color: #102747;
+            padding: 20px;
+            border-radius: 15px;
+            border: 1px solid white;
+            transition: 0.3s;
+            color: white;
+            max-width: 450px;
+        }
+            .card p {
+                font-size: 17px;
+                line-height: 1.6;
+                margin-bottom: 14px;
+            }
+            .card:hover {
+                transform: translateY(-5px);
+                
+            }
+        .card img{
+            width:100%;
+            height:200px;
+            border-radius:10px;
+            object-fit:cover;
+
+        }
+       .explor{
+           text-align:center;
+       }
+       .explor h2{
+           font-size:28px;
+       }
+        .explor p {
+            margin-bottom: 30px;
+            color: #B9CAE4;
+            font-size:26px;
+        }
+        .explor a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #2878cc;
+            text-decoration:none;
+            border-radius:15px;
+            color:white;
+            margin-bottom:40px;
+            font-size:20px;
+        }
+        .explor a:hover {
+            background-color: #70b8ff;
+        }
+        footer {
+            margin-top: 150px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Orbit
+        </h1>
+        <nav>
+
+            <a href="index.html">Home</a>
+            <a href="destinations.html" style="color: aquamarine">Destinations</a>
+            <a href="packages.html">Packages</a>
+            <a href="spacecraft.html">Spacecraft</a>
+            <a href="About Us.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="faq.html">FAQ</a>
+            <a href="booking.html">Book Now</a>
+
+        </nav>
+
+    </header>
+    <main>
+        <div class="head">
+            <h1>Our Destinations</h1>
+            <p>Explore extraordinary places beyond Earth. Choose your next destination and <br />experience the beauty of space up close.</p>
+
+        </div>
+        <div class="cards">
+            <div class="card" style="border-color:skyblue;">
+                <img src="pic/Earth.du.jpg" alt="Earth destinations" />
+                <h2 style="color: skyblue;font-size:28px">Earth Orbit</h2>
+                <p style="font-size:20px;">
+                    Experience Earth from a whole new perspective. Enjoy breathtaking views of our planet from space.
+                    <br />
+                    <br />
+                    <strong>Duration:</strong>2-3 days
+                    <br />
+                    <br />
+                    <strong>Best For:</strong> First-time space travelers
+                </p>
+
+            </div>
+            <div class="card" style="border-color:silver">
+                <img src="pic/Moon.du.jpg" alt="Moon" />
+                <h2 style="color: silver;font-size:28px">Moon</h2>
+                <p style="font-size:20px;">
+                    Embark on a journey to the Moon and witness its serene beauty. Walk on the lunar surface and marvel at the Earthrise.
+                    <br />
+                    <br />
+                    <strong>Duration:</strong> 7-10 days
+                    <br />
+                    <br />
+                    <strong>Best For:</strong> Adventure seekers and space enthusiasts
+                </p>
+            </div>
+            <div class="card" style="border-color:orange">
+                <img src="pic/Mars.du.jpg" alt="Mars" />
+                <h2 style="color: orange;font-size:28px">Mars</h2>
+                <p style="font-size:20px;">
+                    Experience the red planet like never before. Explore the Martian landscape and discover the mysteries of the fourth planet from the Sun.
+                    <br />
+                    <br />
+                    <strong>Duration:</strong> 14-21 days
+                    <br />
+                    <br />
+                    <strong>Best For:</strong> Space enthusiasts and researchers
+                </p>
+
+
+            </div>
+        </div>
+        <div class="explor">
+            <h1>Choose Your Destination</h1>
+            <p>Explore our travel packages and select the perfect destination for your next space adventure.</p>
+            <a href="packages.html">View Packages</a>
+
+        </div>
+       
+
+
+
+    </main>
+
+
+
+
+
+
+    <footer>
+        <p>&copy; 2026 ORBIS Space Tourism. All rights reserved.</p>
+
+
+    </footer>
+</body>
+</html>
